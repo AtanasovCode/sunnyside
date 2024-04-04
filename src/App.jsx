@@ -1,6 +1,12 @@
+import Hero from "./components/Hero"
+
 function App() {
   return (
-    <div></div>
+    <div className="
+      w-screen min-h-screen flex flex-col
+    ">
+      <Hero />
+    </div>
   )
 }
 
